@@ -1,0 +1,206 @@
+.main {
+  height: 100vh;
+  margin: 100px 100px; }
+  .main .main__container {
+    height: 100%; }
+    .main .main__container .main__video {
+      background-color: #F0F0F0;
+      border-radius: 10px;
+      padding: 0;
+      margin: 0; }
+      .main .main__container .main__video .main__player {
+        background-color: #313845;
+        width: 100%;
+        height: 400px;
+        -webkit-border-radius: 10px 10px 0px 0px;
+        -moz-border-radius: 10px 10px 0px 0px;
+        -ms-border-radius: 10px 10px 0px 0px;
+        border-radius: 10px 10px 0px 0px; }
+        .main .main__container .main__video .main__player .main__playerNav {
+          position: relative;
+          top: 85%; }
+          .main .main__container .main__video .main__player .main__playerNav ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 0; }
+            .main .main__container .main__video .main__player .main__playerNav ul li {
+              display: inline-block;
+              font-size: 20px;
+              padding: 0px 10px;
+              color: #fff; }
+            .main .main__container .main__video .main__player .main__playerNav ul .main__playButton {
+              background-color: rgba(17, 17, 17, 0.43);
+              position: relative;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              border-radius: 50%;
+              padding: 10px 15px;
+              color: #fff; }
+          .main .main__container .main__video .main__player .main__playerNav .main__progressBar {
+            width: 40%;
+            transform: translate(0%, 50%); }
+            .main .main__container .main__video .main__player .main__playerNav .main__progressBar .progress {
+              height: 5px; }
+          .main .main__container .main__video .main__player .main__playerNav .main__volumeBar {
+            width: 100px;
+            transform: translate(0%, 50%); }
+            .main .main__container .main__video .main__player .main__playerNav .main__volumeBar .progress {
+              height: 5px; }
+              .main .main__container .main__video .main__player .main__playerNav .main__volumeBar .progress:before {
+                content: '';
+                position: absolute;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                border-radius: 50%;
+                top: -3px;
+                left: 15px;
+                width: 12px;
+                height: 12px;
+                background-color: #428bca; }
+      .main .main__container .main__video .main__description {
+        padding: 5px 30px;
+        border-bottom: 2px solid #fff; }
+        .main .main__container .main__video .main__description h2 {
+          font-family: "Montserrat", sans-serif; }
+        .main .main__container .main__video .main__description h4 {
+          font-family: "Montserrat", sans-serif; }
+        .main .main__container .main__video .main__description .main__icons .glyphicon {
+          padding: 15px 15px 15px 0px;
+          color: #A0A0A0; }
+          .main .main__container .main__video .main__description .main__icons .glyphicon h6 {
+            font-family: "Montserrat", sans-serif;
+            display: inline;
+            padding: 0px 0px 0px 5px;
+            font-weight: 900; }
+      .main .main__container .main__video .main__user .main__chips {
+        padding: 10px 30px; }
+        .main .main__container .main__video .main__user .main__chips ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          margin-top: 5px; }
+          .main .main__container .main__video .main__user .main__chips ul li {
+            float: left;
+            margin-right: 20px; }
+          .main .main__container .main__video .main__user .main__chips ul h5 {
+            margin: 0; }
+          .main .main__container .main__video .main__user .main__chips ul .main__avatar {
+            width: 50px;
+            height: 50px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+            background-color: #333; }
+          .main .main__container .main__video .main__user .main__chips ul .main__nameInfo {
+            padding-top: 5px; }
+            .main .main__container .main__video .main__user .main__chips ul .main__nameInfo h5 {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900; }
+            .main .main__container .main__video .main__user .main__chips ul .main__nameInfo h6 {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900;
+              color: #A0A0A0; }
+          .main .main__container .main__video .main__user .main__chips ul .main__button .main__buttonInner {
+            width: 150px; }
+            .main .main__container .main__video .main__user .main__chips ul .main__button .main__buttonInner button {
+              float: left;
+              margin-top: 5px;
+              -webkit-border-radius: 20px 0px 0px 20px;
+              -moz-border-radius: 20px 0px 0px 20px;
+              -ms-border-radius: 20px 0px 0px 20px;
+              border-radius: 20px 0px 0px 20px;
+              vertical-align: middle; }
+              .main .main__container .main__video .main__user .main__chips ul .main__button .main__buttonInner button:nth-child(2) {
+                -webkit-border-radius: 0px 20px 20px 0px;
+                -moz-border-radius: 0px 20px 20px 0px;
+                -ms-border-radius: 0px 20px 20px 0px;
+                border-radius: 0px 20px 20px 0px; }
+            .main .main__container .main__video .main__user .main__chips ul .main__button .main__buttonInner .btn-success-dark {
+              background-color: #489948;
+              color: #fff; }
+      .main .main__container .main__video .main__user .main__release .main__uploaded {
+        margin-top: 20px;
+        text-align: right; }
+        .main .main__container .main__video .main__user .main__release .main__uploaded h5 {
+          font-weight: 900;
+          font-family: "Montserrat", sans-serif;
+          font-size: 12px;
+          padding-top: 0;
+          line-height: 0.8; }
+          .main .main__container .main__video .main__user .main__release .main__uploaded h5::nth-child(1) {
+            color: #A0A0A0; }
+    .main .main__container .main__related {
+      background-color: #F0F0F0;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      padding: 0; }
+      .main .main__container .main__related .main__relatedTopic .main__text {
+        width: 100%;
+        height: 80px;
+        border-bottom: 2px solid #fff; }
+        .main .main__container .main__related .main__relatedTopic .main__text h4 {
+          padding: 30px; }
+      .main .main__container .main__related .main__relatedContainer .main__relatedVideos {
+        width: 100%; }
+        .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row {
+          padding: 20px; }
+          .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__imageVideo {
+            background-color: #313845;
+            height: 180px;
+            padding: 20px;
+            -webkit-border-radius: 5px 5px 0px 0px;
+            -moz-border-radius: 5px 5px 0px 0px;
+            -ms-border-radius: 5px 5px 0px 0px;
+            border-radius: 5px 5px 0px 0px; }
+            .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__imageVideo p {
+              position: relative;
+              top: 130px;
+              left: -20px;
+              display: inline-block;
+              padding: 5px 10px;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              -ms-border-radius: 5px;
+              border-radius: 5px;
+              color: #fff;
+              background-color: rgba(14, 40, 71, 0.94); }
+          .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__videoDesc {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 20px; }
+            .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__videoDesc h5 {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900; }
+            .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__videoDesc p {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 900;
+              color: #A0A0A0;
+              display: inline;
+              margin-left: 8px; }
+            .main .main__container .main__related .main__relatedContainer .main__relatedVideos .row .main__videoDesc .glyphicon {
+              color: #A0A0A0; }
+
+@media (min-width: 1300px) {
+  .main .main__container .main__video .main__player {
+    height: 600px; } }
+
+@media (min-width: 460px) and (max-width: 1300px) {
+  .main__related {
+    margin-top: 20px; }
+  .main .main__container .main__video .main__player .main__playerNav ul li {
+    font-size: 13px; } }
+
+@media (max-width: 850px) {
+  .main .main__container .main__video .main__player .main__playerNav ul li {
+    visibility: hidden; } }
+
+@media (max-width: 460px) {
+  .main {
+    margin: 0; }
+    .main .main__related {
+      margin-top: 20px; } }
